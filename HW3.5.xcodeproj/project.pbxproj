@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50539EF2594ECDD005059C6 /* SectionsContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50539EE2594ECDD005059C6 /* SectionsContactListView.swift */; };
 		A54B2FA32594490800C39301 /* HW3_5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FA22594490800C39301 /* HW3_5App.swift */; };
 		A54B2FA52594490800C39301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FA42594490800C39301 /* ContentView.swift */; };
 		A54B2FA72594490A00C39301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B2FA62594490A00C39301 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50539EE2594ECDD005059C6 /* SectionsContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsContactListView.swift; sourceTree = "<group>"; };
 		A54B2F9F2594490800C39301 /* HW3.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54B2FA22594490800C39301 /* HW3_5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW3_5App.swift; sourceTree = "<group>"; };
 		A54B2FA42594490800C39301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				A54B2FB22594498100C39301 /* Person.swift */,
 				A54B2FA42594490800C39301 /* ContentView.swift */,
 				A54B2FBE259457D000C39301 /* ContactListView.swift */,
+				A50539EE2594ECDD005059C6 /* SectionsContactListView.swift */,
 				A54B2FC22594736900C39301 /* DetailsContactView.swift */,
 				A54B2FA62594490A00C39301 /* Assets.xcassets */,
 				A54B2FAB2594490A00C39301 /* Info.plist */,
@@ -164,6 +167,7 @@
 				A54B2FB42594498100C39301 /* Person.swift in Sources */,
 				A54B2FB52594498100C39301 /* DataManager.swift in Sources */,
 				A54B2FA52594490800C39301 /* ContentView.swift in Sources */,
+				A50539EF2594ECDD005059C6 /* SectionsContactListView.swift in Sources */,
 				A54B2FBF259457D000C39301 /* ContactListView.swift in Sources */,
 				A54B2FA32594490800C39301 /* HW3_5App.swift in Sources */,
 				A54B2FC32594736900C39301 /* DetailsContactView.swift in Sources */,

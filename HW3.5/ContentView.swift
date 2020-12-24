@@ -10,29 +10,25 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-            TabView {
-             
-                ContactListView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "person.circle")
-                            Text("Contacts")
-                        }
+        TabView {
+            
+            ContactListView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.circle")
+                        Text("Contacts")
                     }
-                
-                ContactListView()
-                    .tabItem {
-                        VStack {
-                            Image(systemName: "person.circle")
-                            Text("Contacts")
-                        }
+                }
+            
+            SectionsContactListView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person.circle")
+                        Text("Contacts")
                     }
-                
-            }
-    
-        
-        
-        
+                }
+            
+        }
         
     }
 }
