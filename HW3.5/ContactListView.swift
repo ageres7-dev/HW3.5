@@ -11,16 +11,16 @@ struct ContactListView: View {
     @EnvironmentObject var contactManager: ContactManager
     
     var body: some View {
-        
-//        Text("Placeholder")
+ 
         NavigationView {
             List(contactManager.contacts, id: \.self) { contact in
-                Text(contact.fullName)
+                
+                NavigationLink(destination: DetailsContactView(contact: contact)) {
+                    Text(contact.fullName)
+                }
+                
             }.navigationTitle("Contacts")
         }
-        
-        
-        
     }
 }
 

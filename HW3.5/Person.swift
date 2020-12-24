@@ -11,6 +11,8 @@ import Foundation
 struct Person: Hashable {
 //    var id: ObjectIdentifier
     
+//    var id: ObjectIdentifier
+    
     
     let name: String
     let surname: String
@@ -20,7 +22,20 @@ struct Person: Hashable {
     var fullName: String {
         "\(name) \(surname)"
     }
+    
+    var initials: String {
+        getСharacter(number: 0, from: name) + getСharacter(number: 0, from: surname)
+    }
 }
+
+
+extension Person {
+    private func getСharacter(number: Int, from string: String) -> String {
+        let index = string.index(string.startIndex, offsetBy: number)
+        return String(string[index])
+    }
+}
+
 
 extension Person {
     static func getContactList() -> [Person] {

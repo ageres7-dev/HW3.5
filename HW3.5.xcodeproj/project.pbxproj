@@ -15,6 +15,7 @@
 		A54B2FB52594498100C39301 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FB32594498100C39301 /* DataManager.swift */; };
 		A54B2FBA2594544300C39301 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FB92594544300C39301 /* ContactManager.swift */; };
 		A54B2FBF259457D000C39301 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FBE259457D000C39301 /* ContactListView.swift */; };
+		A54B2FC32594736900C39301 /* DetailsContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B2FC22594736900C39301 /* DetailsContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A54B2FB32594498100C39301 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A54B2FB92594544300C39301 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
 		A54B2FBE259457D000C39301 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		A54B2FC22594736900C39301 /* DetailsContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A54B2FB22594498100C39301 /* Person.swift */,
 				A54B2FA42594490800C39301 /* ContentView.swift */,
 				A54B2FBE259457D000C39301 /* ContactListView.swift */,
+				A54B2FC22594736900C39301 /* DetailsContactView.swift */,
 				A54B2FA62594490A00C39301 /* Assets.xcassets */,
 				A54B2FAB2594490A00C39301 /* Info.plist */,
 				A54B2FA82594490A00C39301 /* Preview Content */,
@@ -163,6 +166,7 @@
 				A54B2FA52594490800C39301 /* ContentView.swift in Sources */,
 				A54B2FBF259457D000C39301 /* ContactListView.swift in Sources */,
 				A54B2FA32594490800C39301 /* HW3_5App.swift in Sources */,
+				A54B2FC32594736900C39301 /* DetailsContactView.swift in Sources */,
 				A54B2FBA2594544300C39301 /* ContactManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
