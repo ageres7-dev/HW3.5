@@ -11,16 +11,15 @@ struct DetailsContactView: View {
     let contact: Person
     
     var body: some View {
-        
-        //скрол глючит
+        //скрол с глючит...
         ScrollView {
             VStack {
                 ContactImage(contact: contact)
                 
                 ContactInfo(contact: contact)
-            }
+            }.padding()
+            .navigationTitle(contact.fullName)
         }
-        
     }
 }
 
@@ -30,13 +29,13 @@ struct ContactImage: View {
     var body: some View {
         ZStack {
             Color.gray
+            
             Text(contact.initials)
                 .font(.largeTitle)
+            
             Image(contact.surname)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-//                .background(Color.red)
-            
         }
         .frame(width: 120, height: 120, alignment: .center)
         .clipShape(Circle())
@@ -55,11 +54,9 @@ struct ContactInfo: View {
                 
                 Text("Email: \(contact.email)")
                 
-                
                 Spacer()
             }
             .padding()
-            .navigationTitle(contact.fullName)
             
             Spacer()
         }

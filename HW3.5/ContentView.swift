@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            
             ContactListView()
                 .tabItem {
                     VStack {
@@ -27,9 +26,7 @@ struct ContentView: View {
                         Text("Contacts")
                     }
                 }
-            
         }
-        
     }
 }
 

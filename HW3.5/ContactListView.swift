@@ -14,12 +14,11 @@ struct ContactListView: View {
  
         NavigationView {
             List(contactManager.contacts, id: \.self) { contact in
-                
                 NavigationLink(destination: DetailsContactView(contact: contact)) {
                     Text(contact.fullName)
                 }
-                
-            }.navigationTitle("Contacts")
+            }
+            .navigationTitle("Contacts")
         }
     }
 }

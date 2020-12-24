@@ -26,14 +26,12 @@ struct SectionsContactListView: View {
                             textInfo: contact.email
                         )
 
-                    
-                    } .textCase(nil)
+                    }.textCase(nil)
                 }
             }.navigationTitle("Contacts")
         }
     }
 }
-
 
 
 struct InfoRow: View {

@@ -9,11 +9,6 @@
 import Foundation
 
 struct Person: Hashable {
-//    var id: ObjectIdentifier
-    
-//    var id: ObjectIdentifier
-    
-    
     let name: String
     let surname: String
     let email: String
@@ -46,10 +41,9 @@ extension Person {
         let surnames = DataManager.shared.surnames.shuffled()
         let emails = DataManager.shared.emails.shuffled()
         let phones = DataManager.shared.phones.shuffled()
+        let iterationCount = min(names.count, surnames.count, emails.count, phones.count)
         
-//        let iterationCount = min(names.count, surnames.count, emails.count, phones.count)
-        
-        for index in 0..<names.count {
+        for index in 0..<iterationCount {
             let person = Person(
                 name: names[index],
                 surname: surnames[index],

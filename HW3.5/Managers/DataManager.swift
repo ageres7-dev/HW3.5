@@ -11,32 +11,7 @@ import Foundation
 class DataManager {
     
     static let shared = DataManager()
-    /*
-    var names = [
-        "John", "Aaron", "Tim", "Ted",
-        "Steven", "Sharon", "Nicola",
-        "Allan", "Bruce", "Carl"
-    ]
-    
-    let surnames = [
-        "Smith", "Dow", "Isaacson", "Pennyworth",
-        "Jankin", "Butler", "Black", "Robertson",
-        "Murphy", "Williams"
-    ]
-    
-    let emails = [
-        "jjjj@mail.ru", "aaaa@mail.ru", "eeee@mail.ru",
-        "hhhh@mail.ru", "wwww@mail.ru", "mmmm@mail.ru",
-        "xxxx@mail.ru", "pppp@mail.ru", "ssss@mail.ru",
-        "llll@mail.ru"
-    ]
-    
-    let phones = [
-        "745396026", "145036843", "287185656", "293520954",
-        "562880225", "738594072", "825654134", "645898473",
-        "432349845", "459477625"
-    ]
- */
+
     let names = [
         "John",
         "Aaron",
@@ -104,12 +79,12 @@ class DataManager {
         "bull@mail.ru",
         "duck@mail.ru",
         "rabbit@gmail.com",
-//        "sheep@gmail.com",
-//        "bear@gmail.com",
-//        "fish@yahoo.com",
-//        "deer@mail.ru",
-//        "hen@yahoo.com",
-//        "stable@gmail.com"
+        "sheep@gmail.com",
+        "bear@gmail.com",
+        "fish@yahoo.com",
+        "deer@mail.ru",
+        "hen@yahoo.com",
+        "stable@gmail.com"
     ]
     let phones = [
         "+1 (790) 340-8803",
@@ -131,9 +106,9 @@ class DataManager {
         "+1 (372) 680-5796",
         "+1 (580) 612-3814",
         "+1 (726) 423-6044",
-//        "+1 (657) 814-5392",
-//        "+1 (893) 426-7730",
-//        "+1 (515) 422-6778",
+        "+1 (657) 814-5392",
+        "+1 (893) 426-7730",
+        "+1 (515) 422-6778",
     ]
     
     private init() {}
