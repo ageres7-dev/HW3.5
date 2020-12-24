@@ -12,6 +12,7 @@ struct HW3_5App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ContactManager())
         }
     }
 }
