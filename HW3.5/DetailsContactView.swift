@@ -11,15 +11,16 @@ struct DetailsContactView: View {
     let contact: Person
     
     var body: some View {
-        //скрол с глючит...
-        ScrollView {
+        List {
             VStack {
                 ContactImage(contact: contact)
+                    .padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
                 
                 ContactInfo(contact: contact)
-            }.padding()
-            .navigationTitle(contact.fullName)
+            }
         }
+        .listStyle(InsetGroupedListStyle())
+        .navigationTitle(contact.fullName)
     }
 }
 
@@ -40,7 +41,9 @@ struct ContactImage: View {
         .frame(width: 120, height: 120, alignment: .center)
         .clipShape(Circle())
         .shadow(radius: 10)
+        
     }
+    
 }
 
 
